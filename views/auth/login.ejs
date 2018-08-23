@@ -1,1 +1,15 @@
 <h2>Log in</h2>
+
+<form action="/auth/login" method="POST">
+	<div class="row">
+		<div class="input-field col s6 md6">
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" class="validate">
+		</div>
+	<div class="input-field col s6 md12">
+			<label for="password">Password</label>
+			<input type="password" id="password" name="password" class="validate">
+		</div>
+	</div>
+	<input type="submit" class="btn btn-primary">
+</form>
