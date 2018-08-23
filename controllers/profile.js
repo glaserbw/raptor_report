@@ -6,7 +6,7 @@ var router = express.Router();
 
 // Define routes
 router.get('/', function(req, res){
-	res.render('auth/profile');
+	res.render('profile/index');
 }); 
 
 module.exports = router; 
