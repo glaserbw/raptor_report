@@ -86,7 +86,22 @@ node index.js
 
 #### 9. Create a new repository for the new project
 
+* Create a new repo on your personal github account
+* Delete the old remote to origin 
+* Add new repo as a new remote location (can also be called origin since we deleted the origin)
+* PUSH!  
+
+```
+git remote remove origin 
+git remote and origin <new_repo_link> 
+git add . 
+git commit -m "Beginning of new project"
+git push origin master 
+```
+
 > Note: Do NOT make commits from the new project to your auth boilerplate! Keep it pristine! 
+
+
 
 ## Next Steps 
 
